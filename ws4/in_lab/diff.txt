@@ -1,0 +1,14 @@
+In line number 33 of your output:
+The output should be:
+Enter the flower's name... : This is not a real flower name
+^
+But your output is: 
+==233838== Conditional jump or move depends on uninitialised value(s)
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [E] ASCII code(69)
+but you printed
+  [=] ASCII code(61)
+

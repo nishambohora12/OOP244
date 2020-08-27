@@ -1,0 +1,20 @@
+Name: Nisham Bohora ID:154469183
+
+Quiz 2,V1
+2. write the copy constructor for onedynamicdouble class.
+=oneDynamicDouble::oneDynamicDouble(const int value)
+{
+oneintptr=value;}
+Corrected:
+oneDynamicDouble::oneDynamicDouble(const oneDynamicDouble& cp)
+{ oneIntPtr=new int;
+   *oneIntptr=*cp.oneIntPtr;
+}
+
+3.Write destructor for oneDynamicDouble.
+=oneDynamicDouble::~oneDynamicDouble(){}
+corrected:
+oneDynamicDouble::~oneDynamicDouble()
+{
+delete oneIntPtr;
+}

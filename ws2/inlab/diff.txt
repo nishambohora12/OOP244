@@ -1,0 +1,14 @@
+In line number 21 of your output:
+The output should be:
+34,33,23,30
+   ^
+But your output is: 
+34, 33, 23, 30
+   ^
+
+Unmatched character details:
+The character in column 4 is supposed to be:
+  [3] ASCII code(51)
+but you printed
+  [Space] ASCII code(32)
+

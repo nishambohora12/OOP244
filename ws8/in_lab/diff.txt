@@ -1,0 +1,14 @@
+In line number 67 of your output:
+The output should be:
+We can't write without graphite!
+      ^
+But your output is: 
+We cant write without graphite!
+      ^
+
+Unmatched character details:
+The character in column 7 is supposed to be:
+  ['] ASCII code(39)
+but you printed
+  [t] ASCII code(116)
+

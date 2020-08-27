@@ -1,0 +1,20 @@
+Name: Nisham Bohora ID:154469183
+
+Quiz 1, V1
+Q1. Create an interger dynamically, then delete It?
+= * heror = new int [];
+  delete hero[];
+ Corrected:  int* hero;
+             hero= new int ;
+             delete hero;
+Q2. Create a dynamic array of doubles 2538 doubles, then delete them.
+=  *hero= new double [2538];  
+      delete
+  Corrected: double* hero;
+             hero= new double[2538]; 
+             delete[] hero;
+
+
+Q3. what does public mean in class?
+ = Public mean open for client code.
+Corrected:It means it can access inside and outside the class.

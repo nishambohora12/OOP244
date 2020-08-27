@@ -1,0 +1,44 @@
+Quiz 7        Version 2  Name:Nisham Bohora id:154469183
+
+
+Q1:Convert the above  search function to a template so it can work for any type of array.
+
+Mistake:
+  template<typename T>
+bool search(int valtosearch, T sample[],int numberofsamples, unsigned int& foundIndex)
+ {
+    unsigned int;
+     bool found=false;
+     for(i=0;!found && i< numberOfSamples; i++){
+      if(samples[i]==valToSearchfor){
+           foundIndex=i;
+           found=true;
+           }
+          }
+      return found;
+ }
+ 
+Corrected Answer:
+  template<typename T>
+bool search(int valToSearchFor, T sampels[],int numberOfSamples, unsigned int& foundIndex)
+ {
+    unsigned int i;
+     bool found=false;
+     for(i=0;!found && i< numberOfSamples; i++){
+      if(samples[i]==valToSearchfor){
+           foundIndex=i;
+           found=true;
+           }
+          }
+      return found;
+ }
+
+Question 2- Name all the capabilities your Template type should have so your function can work with that type? 
+
+Mistake: Bool Operator
+         Index
+
+Correct: Copy Constructor 
+         Operator must exit that is bool Type :: operator==(Type....)
+
+

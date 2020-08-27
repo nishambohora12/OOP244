@@ -1,0 +1,14 @@
+In line number 84 of your output:
+The output should be:
+Enter the flower's colour... : White
+                                    ^
+But your output is: 
+Enter the flower's colour... : Whites
+                                    ^
+
+Unmatched character details:
+The character in column 37 is supposed to be:
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+but you printed
+  [s] ASCII code(115)
+
